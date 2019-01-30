@@ -31,9 +31,11 @@ OK, now you are certain that you need ML.
 Then, you need data!
 
 - What data do you need?
-  Do you already have it (somewhere)?
-  Do you need to buy?
-  Do you need manual labeling?
+
+  - Do you already have it (somewhere)?
+  - Do you need to buy?
+  - Do you need manual labeling?
+
 - Where is the data located and how can it be accessed?
 - How do you combine multiple sources data? (this can be non-trivial)
 
