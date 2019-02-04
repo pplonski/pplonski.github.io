@@ -2,8 +2,8 @@
 <html>
   <head>
     <title>
-      {% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{
-      site.description }}
+      {% if page.title %}{{ page.title }} {% else %} {{ site.description }} {%
+      endif %}
     </title>
 
     {% include meta.html %}
@@ -24,7 +24,7 @@
       href="{{ site.baseurl }}/feed.xml"
     />
 
-    {% seo %}
+    {% seo title=false %}
   </head>
 
   <body>
