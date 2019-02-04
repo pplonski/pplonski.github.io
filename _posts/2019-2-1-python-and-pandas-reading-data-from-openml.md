@@ -3,7 +3,9 @@ layout: post
 title: Python and Pandas reading data from OpenML
 ---
 
-The [Open Machine Learning](https://www.openml.org/) project is a movement to build online ecosystem for machine learning - it is free and open. It is huge repository of datasets that everyone can access. It is like [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php) but modern. Each dataset has unique ID and can be accessed by web browser or REST API. Let's try to read example dataset with Python and Pandas.
+The [Open Machine Learning](https://www.openml.org/) project is a movement to build online ecosystem for machine learning - it is free and open. It is huge repository of datasets that everyone can access. It is like [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php) but modern.
+
+Let's try to read example dataset with Python and Pandas.
 
 ## Python and Pandas data reading from OpenML
 

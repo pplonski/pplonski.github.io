@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Automatic Machine Learning is broken
+title: Automated Machine Learning is broken
 ---
 
-Automatic Machine Learning (AutoML) according to Wikipedia: is automating the end-to-end process of applying machine learning to real-world problems.
+Automated Machine Learning (AutoML) according to [Wikipedia](https://en.wikipedia.org/wiki/Automated_machine_learning): is automating the end-to-end process of applying machine learning to real-world problems.
 
 Typical machine learning application contains:
 
