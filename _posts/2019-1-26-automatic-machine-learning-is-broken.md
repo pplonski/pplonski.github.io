@@ -14,7 +14,7 @@ Typical machine learning application contains:
 
 A lot of steps! AutoML aims to automate them so you can spend your precious time on more challenging tasks. Sounds cool, but is it? Let's look closer ...
 
-### Before starting - what is your problem?
+## Before starting - what is your problem?
 
 Before starting your ML pipeline (automatic or manual) you need to know:
 
@@ -26,7 +26,7 @@ This is very important! Perhaps you don't need a complex Machine Learning soluti
 
 OK, now you are certain that you need ML.
 
-### Data problems - what? where? how?
+## Data problems - what? where? how?
 
 Then, you need data!
 
@@ -41,11 +41,11 @@ Then, you need data!
 
 Many say that the steps outlined above are the most time consuming (thus the most expensive) in building ML solutions. (At least some basic ETL will be required to run this part in a production environment).
 
-### Let's train models (easy part, the autoML part)
+## Let's train models (easy part, the autoML part)
 
 After data is prepared, the autoML can be applied. In one mouse-click you can train 100s or even 1000s of models which are then trained in parallel in the cloud. You end up with a set of models, or even an ensemble of models, trained to optimize some metric with respect to some validation scheme. The best single (heavily tuned) model will be a few percent better than a single model with default hyper-parameters. An ensemble of all your models will give you the next few percentage points of improvement. Let's say you will end up with up to 10-25% improvement, pretty good, isn't it?! In same cases it is a lot and can be converted into huge ROI - think of trading solutions or credits scoring tasks.
 
-### Model complexity
+## Model complexity
 
 But! You end up with a complex model which is:
 
@@ -53,7 +53,7 @@ But! You end up with a complex model which is:
 - Time needed to compute predictions can be long (in the case of an ensemble, you need to compute predictions from all models in the ensemble)
 - Hard to maintain ...
 
-### Maintenance
+## Machine learning maintenance
 
 What do you mean by model maintenance? Well, it is not enough to train accurate and fancy AI/ML model. For using the ML model in production you should:
 
@@ -61,7 +61,7 @@ What do you mean by model maintenance? Well, it is not enough to train accurate 
 - Monitor predictions (the model is computing predictions on completely new data unseen in the training and so no one know what will happen)
 - Provide a feedback loop which can be used for monitoring purposes and model retraining
 
-### The boring software
+## The boring software
 
 Training ML models is exciting! This is what Tigger likes most! Building software around ML is not as exciting. The boring software needed for ML model to operate in production consists of:
 
@@ -71,14 +71,14 @@ Training ML models is exciting! This is what Tigger likes most! Building softwar
 
 When running ML locally, the last two steps are usually connected. All the software used needs some maintenance as well.
 
-### What to do with predictions
+## What to do with predictions
 
 You were successful with all above steps. Congratulations! You can now compute predictions for your new data records. What do you do with them?
 
 - You can use them to get insights (I think this is the easiest way and in fact it is not using ML model at all, it is exploratory data analysis)
 - You can use them to make actions. There are many possibilities, for example it can be used to submit a trade on exchange or sending an email to a customer. I think this is the most beautiful part of whole ML pipeline. **Act based on data**.
 
-### Conclusions:
+## Conclusions:
 
 1. AutoML solutions can tune the ML model and bring improvement in accuracy under some validation schema and data. It can save a lot of time usually required for data scientists to check different algorithms and validations (you don't need to code, check library versions or interfaces). For sure, having autoML is a huge advantage and is necessary. However, in my opinion, you need a lot of resources (money, time and people) to handle ML in your company, even if you have an autoML magic box.
 2. You need to provide **boring software** for manipulating the data and making use of ML predictions. I think this part of the ML pipeline is so underrated while it **is a work-horse of data-driven solution**.
